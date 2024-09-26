@@ -25,7 +25,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = htmlspecialchars($_POST['email']);
     $message = htmlspecialchars($_POST['message']);
     
-    $to = "your-email@example.com"; // 여기에 본인의 이메일 주소를 입력하세요
+    $to = "chef2079@naver.com";
     $subject = "새로운 문의가 도착했습니다";
     $body = "이름: $name\n이메일: $email\n\n문의 내용:\n$message";
     $headers = "From: $email";
